@@ -1,0 +1,5 @@
+pip
+Django==2.2.5
+
+#for ubuntu run this command: sudo apt-get install python3-dev and pip install mysqlclient
+mysqlclient
