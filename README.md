@@ -3,8 +3,10 @@
 ## Setup
 
 * `git clone` this repo 
+* cd django-project-test
 * `git config core.fileMode false
 * create database 'django_test_'
+* install dependency: pip install -r requirements.txt
 * run migrate for create table command 'python manage.py migrate googlemap'
 
 ## Running
