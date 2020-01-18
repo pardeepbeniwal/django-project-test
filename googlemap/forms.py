@@ -22,6 +22,6 @@ class GoogleMapForm(forms.Form):
                                            )
             except Exception as e:
                 raise forms.ValidationError(
-                                "Given latitude or longitude was in wrong foramat."
+                                "Given latitude or longitude was in wrong format."
                             )
         return data
